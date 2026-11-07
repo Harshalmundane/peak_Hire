@@ -8,7 +8,7 @@ export const site = {
   whatsappHref: "https://wa.me/917670820107",
   stats: { rating: "4.9/5", alumni: "18,500+", lab: "100%", placement: "14 Days" },
   google: { rating: "4.9", count: "420+" },
-  address: "PeakHire Solutions, Plot No. 45, IT Park Road, Dharampeth, Nagpur, Maharashtra 440010, India.",
+  address: "Survey No.64, SBR CV Towers, Unit No. 203, 2nd Floor Suit No 438, Sector - 1, HUDA Techno Enclave, Madhapur, Hyderabad, Telangana 500081",
 };
 export const navLinks = [
   { label: "Home", href: "/#home" },
