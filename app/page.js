@@ -35,7 +35,7 @@ export default function Home() {
         <RecruitmentSection onLead={openLead} />
         <CourseCatalog onEnroll={(c) => openLead(`Enroll: ${c.title}`, `${c.price} · ${c.weeks}`)} />
         <CareerEcosystem />
-        <PricingSection onSelect={(p) => openLead(p.name, `${p.price} ${p.note}`)} />
+        <PricingSection onSelect={(p) => openLead(p.name, "Our team will help you choose the right package and share the details.")} />
         <Testimonials />
         <AboutSection onTalk={() => openLead("Talk to our team", "Tell us whether you need training or hiring support.")} />
         <FinalCTA onBook={() => openLead("Book a free counseling call", "Speak with an admissions counselor.")} />

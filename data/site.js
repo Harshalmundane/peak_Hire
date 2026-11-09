@@ -42,16 +42,16 @@ export const pillars = [
   { icon: "people-fill", title: "Direct Placement Drive Access", desc: "Gain exclusive entry to PeakHire's student-only job board, hiring drives, and internal partner interview referrals across tech firms.", bg: "#ffedd5", fg: "#ea580c" },
 ];
 export const plans = [
-  { key: "recorded", eyebrow: "Self-Paced Learning", name: "Recorded Master Pack", price: "₹14,999", note: "/ One-time fee", features: [
+  { key: "recorded", icon: "play-circle", eyebrow: "Self-Paced Learning", name: "Recorded Master Pack", features: [
     { t: "Full HD Recorded Video Library (60+ Hours)", on: true }, { t: "Lifetime LMS Access & Free Updates", on: true },
     { t: "Certification Practice Exam Dumps", on: true }, { t: "No Live Instructor Doubt Sessions", on: false }, { t: "No 1-on-1 Placement Interview Coaching", on: false }],
     cta: "Select Recorded Pack", variant: "light" },
-  { key: "live", eyebrow: "Instructor-Led", name: "Live Interactive Cohort", price: "₹26,500", note: "/ Inclusive of Lab Server", popular: true, features: [
+  { key: "live", icon: "camera-video", eyebrow: "Instructor-Led", name: "Live Interactive Cohort", popular: true, features: [
     { t: "Live Interactive Weekend / Weekday Zoom Batches", on: true }, { t: "60 Days Dedicated Cloud Tenant / Sandbox Access", on: true },
     { t: "Real-time Client Implementation Project", on: true }, { t: "Weekly Technical Doubt Clearing with Architect", on: true },
     { t: "PeakHire Course Completion Certificate & Credential", on: true }],
     cta: "Join Live Cohort", variant: "primary" },
-  { key: "placement", eyebrow: "Comprehensive", name: "Placement Career Masterclass", price: "₹36,000", note: "/ Full 360° Assistance", features: [
+  { key: "placement", icon: "briefcase", eyebrow: "Comprehensive", name: "Placement Career Masterclass", features: [
     { t: "Everything in Live Interactive Cohort", on: true }, { t: "3 Comprehensive 1-on-1 Technical Mock Interviews", on: true },
     { t: "Customized ATS Resume & LinkedIn Makeover", on: true }, { t: "Direct Job Board Referrals & Interview Schedules", on: true },
     { t: "Unlimited Doubt Resolution Support till Placement", on: true }],

@@ -9,7 +9,12 @@ export default function RecruitmentSection({ onLead }) {
           <p className="text-secondary">{r.intro}</p>
           <div className="d-flex flex-wrap justify-content-center gap-2">
             <button className="btn btn-ph px-3 py-2" onClick={() => onLead(r.ctaPrimary, "Tell us about the role, skills, experience and timeline.")}>{r.ctaPrimary}</button>
-            <button className="btn btn-outline-secondary bg-white px-3 py-2 fw-semibold" onClick={() => onLead(r.ctaSecondary, "Share your company details and hiring needs.")}>{r.ctaSecondary}</button>
+          <button
+  className="btn bg-white border border-2 border-dark px-3 py-2 fw-semibold"
+  onClick={() => onLead(r.ctaSecondary, "Share your company details and hiring needs.")}
+>
+  {r.ctaSecondary}
+</button>
           </div>
         </div>
 

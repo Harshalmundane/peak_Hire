@@ -10,7 +10,7 @@ export default function HeroSection({ onEnroll }) {
       </p>
       <div className="d-flex flex-wrap align-items-center gap-2 mb-4">
         <button className="btn btn-ph px-3 py-2" onClick={onEnroll}><i className="bi bi-lightning-charge-fill me-1" />Enroll in Next Live Batch</button>
-        <a href="#courses" className="btn btn-outline-secondary bg-white px-3 py-2 fw-semibold"><i className="bi bi-grid me-1" />Explore All 12+ Courses</a>
+       <a href="#courses" className="btn bg-white border border-2 border-dark px-3 py-2 fw-semibold"> <i className="bi bi-grid me-1" />Explore All 6+ Courses</a>
         <a href={site.phoneHref} className="btn btn-link text-decoration-none text-dark small"><i className="bi bi-telephone-fill text-ph me-1" />Call: {site.phone}</a>
       </div>
       <div className="d-flex flex-wrap gap-4 pt-3 border-top">
